@@ -1,0 +1,88 @@
+*{
+  font-family: Poppins, sans-serif;
+}
+body{
+  padding: 20px 70px;
+  background-color: rgb(41, 52, 67);
+  color: #fff;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+a{
+  align-self: end;
+  text-decoration: none;
+  color: #fff;
+}
+button{
+  width: 90px;
+  height: 35px;
+  float: right;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #212121;
+}
+.bio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+h1{
+  margin-top: 70px;
+}
+.bio-text {
+  width: 600px;
+  text-align: justify;
+}
+.bio-image {
+  margin-left: 20px;
+  width: 200px;
+  text-overflow: clip;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+form{
+  width: 315px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+input{
+  border-radius: 10px;
+}
+.info input{
+  width: 300px;
+  height: 30px;
+}
+.remarks textarea{
+  width: 300px;
+  height: 70px;
+}
+.submit input{
+  width: 90px;
+  height: 35px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+.form_container{
+  display: flex;
+  justify-content: center;
+}
+.form_img_container img{
+  width: 500px;
+}

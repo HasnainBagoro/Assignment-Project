@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <nav>
+      <a href="index.html"><button>Home</button></a>
+    </nav>
+</nav>
+<div class="form_container">
+  <div class="form">
+  <h1>Personal Information Form</h1>
+    <form action="submit_form.php" method="post">
+      <div class="info">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+      </div>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+      <div class="remarks">
+        <label for="remarks">Remarks:</label><br>
+        <textarea id="remarks" name="remarks"></textarea><br><br>
+      </div>
+
+      <div class="submit">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <div class="form_img_container">
+    <img src="image.png" alt="image">
+  </div>
+  </div>
+</body>
+</html>
